@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> REAL ESTATE - WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.png">
+
+</head>
+
+<body>
+
+
+    <header>
+        <div class="nav container">
+            <a href="index.html" class="logo"><img src="images/favicon.png" style="width: 10%;">E-state</a>
+            <!-- <input type="checkbox" name="" id="menu">
+            <label for="menu" <ion-icon name="menu-outline"></ion-icon></label> -->
+
+            <ul class="navbar">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#ourfeature">SALES</a></li>
+                <li><a href="property.html">PROPERTIES</a></li>
+            </ul>
+            <a href="login.html" class="btn">LOG IN</a>
+        </div>
+    </header>
+
+
+
+    <section class="home container" id="home">
+        <div class="home-text">
+            <h1>HOME <br>Is Where Your <br> Story Begins</h1>
+            <a href="sign-up.html" class="btn">SIGN UP</a>
+        </div>
+    </section>
+
+
+    <section class="about container" id="about">
+        <div class="about-img">
+
+            <img src="images/home3.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <span>About Us</span>
+            <h2>We Provide The Best <br> Property For You </h2>
+            <p>
+                Committed to exceeding my clients’ expectations, focusing on their best interests, and creating
+                long-term relationships propels me to make tireless efforts to do what it takes to list properties and
+                get the desired results on both sides of the deal.
+
+                I love what I do and it shows as I navigate the home buying and selling process equipped with
+                exceptional negotiating skills, an astute business acumen, in-depth knowledge of the market, proven
+                marketing strategies, accountability, and keen attention to detail. I am known for my responsiveness,
+                for being there for my clients and keeping them well informed throughout the process as they make one of
+                the most important decisions of their lives. I also believe in the power of marketing and saturate the
+                pages of local newspapers, HomeFolio, Diablo Magazine, Luxury Home Magazine, and the internet with
+                advertisements of my clients’ homes whether just listed, sold, or coming soon onto the market.
+            </p>
+            <a href="#" class="btn">LEARN MORE</a>
+
+
+        </div>
+
+        </div>
+    </section>
+
+
+
+    <section class="sales container" id="sales" style="display: flex; justify-content: space-between;">
+        <div class="box">
+            <i class='bx bx-user'></i>
+            <h3>Make Your Dream Come True</i></h3>
+            <p>Invest in Your Future: Unlock the door to your dream home by investing wisely in real estate.
+                Whether it's a cozy apartment, a charming townhouse, or a spacious suburban home,
+                real estate is a tangible and enduring investment that can make your dreams a reality.</p>
+        </div>
+
+        <div class="box">
+            <i class='bx bx-desktop'></i>
+            <h3>Start Your Membership</h3>
+            Build Your Legacy: Real estate allows you to create a lasting legacy for yourself
+            and your loved ones. Imagine the joy of passing down a cherished property to future generations,
+            providing a tangible symbol of your hard work and aspirations.</p>
+        </div>
+
+        <div class="box">
+            <i class='bx bx-user'></i>
+            <h3>Enjoy Your New House</h3>
+            <p>A Place to Thrive: Your dream home is not just a dwelling
+                it's a place where you can thrive. Whether you envision a vibrant urban lifestyle or a serene
+                countryside retreat,
+                real estate can provide the backdrop for the life you've always imagined.</p>
+
+        </div>
+    </section>
+
+    <section class="properties container" id="properties">
+        <div class="heading" id="ourfeature">
+            <span>Recent</span>
+            <h2>Our Featured Properties</h2>
+            <p>Real estate is an imperishable asset, ever increasing in value. It is the most solid security that human ingenuity has devised.
+                <br> It is the basis of all security and about the only indestructible security.</p>
+        </div>
+        <div class="properties-container container">
+            <div class="box">
+                <img src="images/a1.jpg" alt="">
+                <h3>Rs. 20,00,000</h3>
+                <div class="content" style="display: flex;justify-content: space-between;">
+                    <div class="text">
+                        <h3>The palace</h3>
+                        <p>Mumbai</p>
+                    </div>
+                    <div>
+                        <button onclick="gotoknowmorepage()"
+                            style="width: 100px;background: #3c587b; color: aliceblue; border-radius: 10%;height: 40px;">Know
+                            More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/a7.jpg" alt="">
+                <h3>Rs. 15,00,000</h3>
+                <div class="content" style="display: flex;justify-content: space-between;">
+                    <div class="text">
+                        <h3>The palace</h3>
+                        <p>Delhi</p>
+                    </div>
+                    <div>
+                        <button onclick="gotoknowmorepage1()"
+                            style="width: 100px;background: #3c587b; color: aliceblue; border-radius: 10%;height: 40px;">Know
+                            More</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/a4.jpg" alt="">
+                <h3>Rs. 16,00,000</h3>
+                <div class="content" style="display: flex;justify-content: space-between;">
+                    <div class="text">
+                        <h3>The palace</h3>
+                        <p>Bangalore</p>
+                    </div>
+                    <div>
+                        <button onclick="gotoknowmorepage2()"
+                            style="width: 100px;background: #3c587b; color: aliceblue; border-radius: 10%;height: 40px;">Know
+                            More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="newsletter container">
+        <h2>Have Question in mind? <br>Let us help you</h2>
+        <form action="">
+            <input type="email" name="" id="email-box" placeholder="yourmail@gmail.com" required>
+            <input type="submit" value="Send" class="btn">
+        </form>
+    </section>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+
+    <section class="footer">
+        <div class="footer-container container">
+            <h2>E-State</h2>
+            <div class="footer-box">
+                <h3>Quick Links</h3>
+                <a href="index.html#about">About Us</a>
+                <a href="index.html#sales">Sales</a>
+                <a href="property.html">Property</a>
+            </div>
+            <div class="footer-box">
+                <h3>Locations</h3>
+                    <a href="#">Bangalore</a>
+                    <a href="#">New Delhi</a>
+                    <a href="#">Mumbai</a>
+            </div>
+
+
+
+            <div class="footer-box">
+                <h3>Contact</h3>
+                <a href="#">+44 (0)800 123 4567</a> <a href="https://accounts.google.com/InteractiveLogin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&emr=1&ltmpl=default&ltmplcache=2&osid=1&passive=true&rm=false&scc=1&service=mail&ss=1&ifkv=ASKXGp01YEGPRbG6wYLiSUzzDs00u2FvHU_76QlRgAzNT2zG-n62fZnqCoAC1KDne6KAHNPrGvQ5&theme=glif&flowName=GlifWebSignIn&flowEntry=ServiceLogin">your mail@gmail.com</a>
+                <div class="social">
+                    <a href="https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="https://www.instagram.com/"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="https://twitter.com/i/flow/login"><ion-icon name="logo-twitter"></ion-icon></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="copyright">
+        <p>copyright &#169; 2023 E-state, All Right Reserved</p>
+    </div>
+
+
+
+    <script>
+        function gotoknowmorepage() {
+            window.location = "knowmore.html";
+        }
+
+        function gotoknowmorepage1() {
+            window.location = "knowmore1.html";
+        }
+
+        function gotoknowmorepage2() {
+            window.location = "knowmore2.html";
+        }
+
+    </script>
+
+</body>
+
+</html>
